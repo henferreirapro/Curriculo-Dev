@@ -1,0 +1,42 @@
+* {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* DADOS  PESSOAIS */
+.containerDadosPessoais {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.icones {
+  margin: 0 0.25rem;
+  color: rgb(184, 141, 77);
+}
+
+.detalhes {
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(212, 188, 235); */
+  padding: .5rem 0;
+  margin: .25rem 0;
+  font-size: 1.25rem;
+}
+
+hr {
+  background-color: rgb(37, 85, 175);
+  width: 90%;
+}
+
+/* SKILLS */
+.corSkill {
+  background-color:  rgb(184, 141, 77);
+}
