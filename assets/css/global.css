@@ -1,6 +1,7 @@
 * {
   font-family: 'Roboto', sans-serif;
-
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 
 /* DADOS  PESSOAIS */
 .containerDadosPessoais {
@@ -38,9 +40,10 @@ hr {
   height: auto;
 }
 
+
 /* SKILLS */
 .skillsContainer {
-  margin: 0;
+  margin:  0;
   padding: 0 1rem;
 }
 
@@ -50,9 +53,15 @@ hr {
   align-items: center;
 }
 
+.skills-conteudo {
+  margin: 1rem;
+  padding: .25rem;
+}
+
 .corSkill {
   background-color:  rgb(184, 141, 77);
 }
+
 
 /* CURSOS */
 .cursosContainer {
@@ -89,4 +98,47 @@ hr {
   padding: .5rem;
   font-size: 1rem;
   font-weight: 400;
+}
+
+
+/* PROJETOS */
+.titulo-projetos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem .5rem;
+}
+
+.p-projetos {
+  font-size: 1.25rem;
+}
+
+
+/* FOOTER */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(172, 40, 190, 0.418);
+  padding: .5rem 0 .25rem 0;
+
+}
+
+.copy {
+  font-size: 1rem;
+  margin-right: .15rem;
+}
+
+.texto-copy{
+  font-size: .875rem;
+}
+
+.reg {
+  font-size: .675rem;
+  margin-left: .675rem;
+}
+
+.ano-footer {
+  font-size: .765rem;
+  margin-left: .1rem;
 }
