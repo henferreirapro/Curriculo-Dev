@@ -44,6 +44,12 @@ hr {
   padding: 0 1rem;
 }
 
+.skills-titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .corSkill {
   background-color:  rgb(184, 141, 77);
 }
