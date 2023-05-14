@@ -14,7 +14,8 @@ body {
 .containerDadosPessoais {
   display: flex;
   flex-direction: column;
-  
+  margin: 0;
+  padding: 0 1rem;
 }
 
 .icones {
@@ -33,10 +34,53 @@ body {
 
 hr {
   background-color: rgb(37, 85, 175);
-  width: 90%;
+  width: 100%;
+  height: auto;
 }
 
 /* SKILLS */
+.skillsContainer {
+  margin: 0;
+  padding: 0 1rem;
+}
+
 .corSkill {
   background-color:  rgb(184, 141, 77);
+}
+
+/* CURSOS */
+.cursosContainer {
+  margin: .5rem 1rem;
+  padding: 0;
+}
+
+.cursosChilden{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.4rem;
+  margin: 0 .5rem;
+  padding: 0;
+}
+
+.cursos-titulo {
+  font-size: 1.25rem;
+}
+
+.cursos-texto {
+  margin: .25rem;
+  padding: 0 .25rem;
+  font-size: .825rem;
+}
+
+.btn-certificado {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(184, 141, 77);
+  text-decoration: none;
+  margin: .25rem 1.3rem 1rem 1.3rem;
+  border-radius: .7rem;
+  padding: .5rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
